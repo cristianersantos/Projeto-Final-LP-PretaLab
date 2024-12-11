@@ -7,10 +7,12 @@ body {
     overflow-x: hidden;
     margin: 0;
     line-height: 30px;
+    
   }
   
   h1 {
     text-align: center;
+    
   }
   
   h2 {
@@ -23,7 +25,7 @@ body {
   }
   
   p {
-    text-align: "left";
+    text-align: center; /*corrigi a centralização do paragrafo que estava "left" para center*/
   }
   
   section {
@@ -55,7 +57,7 @@ body {
   }
   
   #btnSituacao{
-    width: 300px;
+    width: 400px; /*aumentei a largura de 300 para 400px*/
   }
   
   #content {
